@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+<title>Gym Extreame</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{% static "fitness_care/pic.css" %}">
+</head>
+<body>
+<div id="header">
+<div id="logo"><img src="{% static "fitness_care/images/mom.png" %}" alt = "Mom image"/></div>
+<div id="res_btn" onclick="show_hide_nav('navbar')" ><img src="{% static "fitness_care/images/mx.jpg" %}"/></div>
+<ul id="navbar">
+<li><a href="#">Home</a></li>
+<li><a href="#">Facilitis</a></li>
+<li><a href="#">Classes</a></li>
+<li><a href="#">Membership</a></li>
+<li><a href="#">Contacts</a></li>
+    <center>
+    <img src="{% static "fitness_care/images/workout.jpg" %}" alt="dumble" width="1100">
+    </center>
+</ul>
+</div>
+</body>
+</html>
